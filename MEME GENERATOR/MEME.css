@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+} 
+
+.meme-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: auto;
+}
+
+img {
+    width: '100%';
+    left: auto
+}
+
+.topDiv{
+    position: relative;
+    color: white;
+    top: 20px;
+    left: 50%;
+    font-family: impact;
+    text-transform: uppercase;
+}
+
+.bottomDiv{
+    position: relative;
+    color: white;
+    bottom: 20px;
+    left: 50%;
+    font-family: impact;
+    text-transform: uppercase;
+}
